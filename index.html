@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join our 30-day abs fitness challenge to transform your core with daily progressive routines">
+    <meta name="keywords" content="fitness, abs challenge, 30 days, workout, core strength, exercise routine">
+    <meta name="author" content="Juan David Santamaria">
+    <meta name="robots" content="index, follow">
+    <title>Fitness Challenge: 30 Days of Abs</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="layout">
+
+    <!-- HEADER -->
+    <header class="header header--fit" role="banner">
+        <h1 class="header__title">
+            <span aria-hidden="true">🔥</span>
+            Fitness Challenge: 30 Days of Abs
+            <span aria-hidden="true">🔥</span>
+        </h1>
+        <p class="header__subtitle">Transform your abs in just one month with discipline and consistency.</p>
+    </header>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar sidebar--fit" role="complementary" aria-label="Challenge information and signup">
+        <h3 class="sidebar__title">Challenge Progress</h3>
+        <ul class="sidebar__list" role="list">
+            <li class="sidebar__item" role="listitem">
+                <span aria-hidden="true">🔥</span>
+                <span>Level: Beginner</span>
+            </li>
+            <li class="sidebar__item" role="listitem">
+                <span aria-hidden="true">📅</span>
+                <span>Duration: 30 days</span>
+            </li>
+            <li class="sidebar__item" role="listitem">
+                <span aria-hidden="true">⌚</span>
+                <span>Routines: 5–8 minutes/day</span>
+            </li>
+            <li class="sidebar__item" role="listitem">
+                <span aria-hidden="true">💡</span>
+                <span>Goal: Tone abs</span>
+            </li>
+        </ul>
+
+        <section class="section section--form" aria-labelledby="signup-heading">
+            <h3 class="sidebar__title" id="signup-heading">Join the Challenge</h3>
+            <form class="form" aria-label="Challenge signup form">
+                <label for="nombre" class="form__label">Name:</label>
+                <input 
+                    type="text" 
+                    id="nombre" 
+                    name="nombre" 
+                    class="form__input"
+                    required
+                    aria-required="true"
+                    placeholder="Enter your name">
+
+                <label for="email" class="form__label">Email:</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    class="form__input"
+                    required
+                    aria-required="true"
+                    placeholder="Enter your email">
+
+                <input 
+                    type="submit" 
+                    value="I want to join!" 
+                    class="form__submit"
+                    aria-label="Submit signup form">
+            </form>
+        </section>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="content content--fit" role="main" aria-label="Main content">
+
+        <section class="section section--info" aria-labelledby="about-heading">
+            <h2 class="section__title" id="about-heading">What is it about?</h2>
+            <p class="section__text">
+                This challenge is designed to strengthen your core and improve your endurance.
+                Each day you will have a short and progressive routine.
+            </p>
+        </section>
+
+        <section class="section section--calendar" aria-labelledby="calendar-heading">
+            <h2 class="section__title" id="calendar-heading">Challenge Calendar</h2>
+
+            <table class="table" role="table" aria-label="30-day workout calendar">
+                <thead>
+                    <tr class="table__row table__row--header" role="row">
+                        <th class="table__header" scope="col" role="columnheader">Day</th>
+                        <th class="table__header" scope="col" role="columnheader">Exercise</th>
+                        <th class="table__header" scope="col" role="columnheader">Repetitions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table__row" role="row">
+                        <td class="table__cell" role="cell">1</td>
+                        <td class="table__cell" role="cell">Basic crunches</td>
+                        <td class="table__cell" role="cell">20</td>
+                    </tr>
+                    <tr class="table__row" role="row">
+                        <td class="table__cell" role="cell">2</td>
+                        <td class="table__cell" role="cell">Plank</td>
+                        <td class="table__cell" role="cell">30 seconds</td>
+                    </tr>
+                    <tr class="table__row" role="row">
+                        <td class="table__cell" role="cell">3</td>
+                        <td class="table__cell" role="cell">Bicycle crunches</td>
+                        <td class="table__cell" role="cell">15 per side</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="section section--video" aria-labelledby="media-heading">
+            <video 
+                src="assets/videos/296379_tiny.mp4" 
+                controls 
+                poster="assets/Img/loanding.png" 
+                preload="metadata"
+                aria-label="Fitness challenge demonstration video">
+                Your browser does not support the video element.
+            </video>
+            <audio 
+                src="assets/music/rock1.mp3" 
+                controls 
+                preload="auto"
+                aria-label="Motivational workout music">
+                Your browser does not support the <code>audio</code> element.
+            </audio>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer footer--fit" role="contentinfo">
+        <p class="footer__text">© 2025 Fitness Challenge | Follow me on Instagram @juanda404</p>
+    </footer>
+
+</body>
+
+</html>
