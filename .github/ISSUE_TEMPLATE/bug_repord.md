@@ -1,47 +1,43 @@
----
 name: "🐛 Bug Report"
 
-about: "Reportar un error para ayudarnos a mejorar el proyecto."
+about: "Report an issue to help us improve the project."
 
-title: "[BUG] - Descripción corta del error"
+title: "[BUG] - Short description of the error"
 
 labels: bug
 
 assignees: ""
----
+🐛 Bug Report
+Description
 
-## 🐛 Bug Report
+Clearly describe the error you encountered. Include details about how the problem appears.
 
-### Descripción
+Steps to Reproduce
 
-Describe claramente el error que has encontrado. Incluye detalles sobre cómo se presenta el problema.
+Go to '...'
 
-### Pasos para reproducir
+Click on '...'
 
-1. Ir a '...'
+Describe any other actions until the problem occurs.
 
-2. Hacer clic en '...'
+Error shown: '...'
 
-3. Describir cualquier otra acción hasta que ocurra el problema.
+Expected Behavior
 
-4. Error que aparece: '...'
+Describe what you expected to happen when performing the steps above.
 
-### Comportamiento esperado
+Screenshots or Logs
 
-Describe lo que esperabas que ocurriera al realizar los pasos anteriores.
+If possible, add screenshots or error logs.
 
-### Capturas de pantalla o registros
+Environment
 
-Si es posible, añade capturas de pantalla o registros de errores.
+Operating system: [e.g., Windows 10, macOS Catalina]
 
-### Entorno
+Browser and version: [e.g., Chrome 87, Safari 14]
 
-- Sistema operativo: [p. ej., Windows 10, macOS Catalina]
+Project version: [e.g., 1.0.0]
 
-- Navegador y versión: [p. ej., Chrome 87, Safari 14]
+Additional Information
 
-- Versión del proyecto: [p. ej., 1.0.0]
-
-### Información adicional
-
-Cualquier otra información relevante.
+Any other relevant information.
